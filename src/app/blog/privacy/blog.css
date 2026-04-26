@@ -1,0 +1,52 @@
+.tool-page {
+  padding: var(--space-2xl) 0;
+}
+
+.tool-breadcrumb {
+  display: flex;
+  gap: var(--space-sm);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.tool-breadcrumb a:hover {
+  color: var(--text-primary);
+}
+
+.seo-content {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  max-width: 800px;
+}
+
+.seo-content h1 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+.seo-content h2 {
+  font-size: 1.5rem;
+  margin: var(--space-xl) 0 var(--space-md);
+}
+
+.seo-content h2:first-of-type {
+  margin-top: var(--space-lg);
+}
+
+.seo-content p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.seo-content ul {
+  margin-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+  color: var(--text-secondary);
+}
+
+.seo-content li {
+  margin-bottom: var(--space-xs);
+}
