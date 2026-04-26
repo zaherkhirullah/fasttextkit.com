@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google AdSense — uncomment and replace with real publisher ID after approval */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous"></script> */}
+        {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8995879244490982" crossorigin="anonymous"></script>}
       </head>
       <body>
         {children}
