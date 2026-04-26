@@ -1,4 +1,5 @@
 import Script from 'next/script'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
@@ -69,6 +70,9 @@ export default function RootLayout({ children }) {
             </Script>
           </>
         )}
+
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
       </body>
     </html>
   )
