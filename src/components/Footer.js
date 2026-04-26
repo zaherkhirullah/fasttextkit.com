@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="footer-logo">
               <span>⚡</span>
-              <span>ToolKit Pro</span>
+              <span>FastTextKit</span>
             </div>
             <p className="footer-desc">
               Free online tools for text editing and image compression. Fast, simple, and secure.
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2026 ToolKit Pro. All rights reserved.</p>
+          <p>&copy; 2026 FastTextKit. All rights reserved.</p>
         </div>
       </div>
     </footer>

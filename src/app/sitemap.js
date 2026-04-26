@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://toolzi.io'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://fasttextkit.com'
 
   const routes = [
     { url: '/', priority: 1.0, changeFrequency: 'weekly' },

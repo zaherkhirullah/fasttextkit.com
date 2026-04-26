@@ -1,6 +1,6 @@
 'use client'
-import { useState } from 'react'
 import Link from 'next/link'
+import { useState } from 'react'
 import './header.css'
 
 const caseTools = [
@@ -34,7 +34,7 @@ export default function Header({ currentPage = '' }) {
         <div className="header-inner">
           <Link href="/" className="logo">
             <span className="logo-icon">⚡</span>
-            <span className="logo-text">ToolKit Pro</span>
+            <span className="logo-text">FastTextKit</span>
           </Link>
 
           <nav className="nav-desktop">

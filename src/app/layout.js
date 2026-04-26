@@ -1,30 +1,30 @@
-import './globals.css'
 import Script from 'next/script'
+import './globals.css'
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata = {
   title: {
-    default: 'ToolKit Pro — Free Online Tools',
-    template: '%s | ToolKit Pro',
+    default: 'FastTextKit — Free Online Tools',
+    template: '%s | FastTextKit',
   },
   description: 'Free online tools for text editing and image processing. Word counter, case converter, remove spaces, text sorter, image compressor. No signup required.',
   keywords: 'free online tools, text tools, word counter, case converter, image compressor, remove extra spaces, sort text alphabetically',
-  authors: [{ name: 'ToolKit Pro' }],
-  creator: 'ToolKit Pro',
-  publisher: 'ToolKit Pro',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://toolzi.io'),
+  authors: [{ name: 'FastTextKit' }],
+  creator: 'FastTextKit',
+  publisher: 'FastTextKit',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://fasttextkit.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://toolzi.io',
-    siteName: 'ToolKit Pro',
-    title: 'ToolKit Pro — Free Online Tools',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://fasttextkit.com',
+    siteName: 'FastTextKit',
+    title: 'FastTextKit — Free Online Tools',
     description: 'Fast, simple, and powerful text and image tools. No signup required.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ToolKit Pro — Free Online Tools',
+    title: 'FastTextKit — Free Online Tools',
     description: 'Fast, simple, and powerful text and image tools. No signup required.',
   },
   robots: {
