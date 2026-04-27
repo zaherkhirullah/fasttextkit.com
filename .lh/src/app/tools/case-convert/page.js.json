@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/tools/case-convert/page.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1777250247849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1777250247849,
+            "name": "Commit-0",
+            "content": "import CaseConvertClient from './CaseConvertClient'\n\nexport const metadata = {\n  title: 'Case Converter Online Free — UPPERCASE, lowercase, Title Case | FastText Kit',\n  description: 'Free online case converter tool. Instantly convert text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, snake_case and more. No signup needed.',\n  keywords: 'case converter online, uppercase converter, lowercase converter, title case converter, sentence case, camelCase converter, snake_case, text case changer free',\n  openGraph: {\n    title: 'Case Converter Online Free — FastText Kit',\n    description: 'Convert text to any case format instantly. 8 case types available — UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case.',\n    type: 'website',\n  }\n}\n\nexport default function CaseConvertPage() {\n  return <CaseConvertClient />\n}\n"
+        }
+    ]
+}

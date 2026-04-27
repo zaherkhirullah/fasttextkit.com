@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from 'react'
 import Link from 'next/link'
-import Header from '../../../components/Header'
+import { useState } from 'react'
 import Footer from '../../../components/Footer'
+import Header from '../../../components/Header'
 
 const EXAMPLE_TEXT = `the quick brown fox jumps over the lazy dog.
-hello world from toolkit pro!
+hello world from fast text kit!
 this is a sentence case example.`
 
 const caseOptions = [

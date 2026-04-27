@@ -3,8 +3,8 @@ import Header from '../../../components/Header'
 import '../about/blog.css'
 
 export const metadata = {
-  title: 'Privacy Policy — ToolKit Pro',
-  description: 'ToolKit Pro privacy policy. Learn how we collect, use, and protect your information. We respect your privacy and never sell your data.',
+  title: 'Privacy Policy — FastText Kit',
+  description: 'FastText Kit privacy policy. Learn how we collect, use, and protect your information. We respect your privacy and never sell your data.',
 }
 
 export default function PrivacyPage() {
@@ -24,10 +24,10 @@ export default function PrivacyPage() {
 
             <h2>1. Introduction</h2>
             <p>
-              Welcome to ToolKit Pro ("we", "our", or "us"), accessible at <strong>fasttextkit.com</strong>.
+              Welcome to FastText Kit ("we", "our", or "us"), accessible at <strong>fasttextkit.com</strong>.
               We provide free browser-based tools for text processing and image compression.
               This Privacy Policy explains how we collect, use, and protect information when you visit our website.
-              By using ToolKit Pro, you agree to the practices described in this policy.
+              By using FastText Kit, you agree to the practices described in this policy.
             </p>
 
             <h2>2. Information We Collect</h2>
@@ -117,7 +117,7 @@ export default function PrivacyPage() {
 
             <h2>9. Children&apos;s Privacy</h2>
             <p>
-              ToolKit Pro is not directed to children under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
+              FastText Kit is not directed to children under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
               If you believe a child has provided us with personal information, please contact us and we will promptly delete it.
             </p>
 

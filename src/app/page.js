@@ -1,8 +1,8 @@
 'use client'
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import AdUnit from '../components/AdUnit'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const toolsByCategory = [
   {
@@ -84,7 +84,7 @@ export default function HomePage() {
         <section className="features-section">
           <div className="container">
             <header className="section-header">
-              <h2 className="section-title">Why ToolKit Pro?</h2>
+              <h2 className="section-title">Why FastText Kit?</h2>
             </header>
 
             <div className="features-grid">

@@ -3,8 +3,8 @@ import Header from '../../../components/Header'
 import '../about/blog.css'
 
 export const metadata = {
-  title: 'Terms of Service — ToolKit Pro',
-  description: 'ToolKit Pro terms of service. Read our terms and conditions for using our free online tools at fasttextkit.com.',
+  title: 'Terms of Service — FastText Kit',
+  description: 'FastText Kit terms of service. Read our terms and conditions for using our free online tools at fasttextkit.com.',
 }
 
 export default function TermsPage() {
@@ -24,14 +24,14 @@ export default function TermsPage() {
 
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing or using ToolKit Pro at <strong>fasttextkit.com</strong>, you agree to be bound by these Terms of Service.
+              By accessing or using FastText Kit at <strong>fasttextkit.com</strong>, you agree to be bound by these Terms of Service.
               If you do not agree with any part of these terms, you may not use our website.
               These terms apply to all visitors, users, and anyone who accesses the service.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              ToolKit Pro provides free, browser-based online tools including text case converters, word counters,
+              FastText Kit provides free, browser-based online tools including text case converters, word counters,
               whitespace removers, text sorters, and image compressors. No account or registration is required to use any tool.
               All processing occurs locally in your browser — your content is never uploaded to our servers.
             </p>
@@ -49,7 +49,7 @@ export default function TermsPage() {
 
             <h2>4. Intellectual Property</h2>
             <p>
-              All website design, source code, branding, and original content on fasttextkit.com is the intellectual property of ToolKit Pro and is protected by copyright law.
+              All website design, source code, branding, and original content on fasttextkit.com is the intellectual property of FastText Kit and is protected by copyright law.
               You may not reproduce, distribute, or create derivative works from our website content without explicit written permission.
             </p>
             <p>
@@ -59,7 +59,7 @@ export default function TermsPage() {
 
             <h2>5. Disclaimer of Warranties</h2>
             <p>
-              ToolKit Pro is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis without any warranty of any kind,
+              FastText Kit is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis without any warranty of any kind,
               either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
             </p>
             <p>
@@ -70,7 +70,7 @@ export default function TermsPage() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              To the maximum extent permitted by applicable law, ToolKit Pro shall not be liable for any indirect, incidental,
+              To the maximum extent permitted by applicable law, FastText Kit shall not be liable for any indirect, incidental,
               special, consequential, or punitive damages, including but not limited to loss of data, loss of profits,
               or business interruption, arising from your use of or inability to use the service,
               even if we have been advised of the possibility of such damages.
@@ -85,7 +85,7 @@ export default function TermsPage() {
 
             <h2>8. Privacy</h2>
             <p>
-              Your use of ToolKit Pro is also governed by our{' '}
+              Your use of FastText Kit is also governed by our{' '}
               <a href="/blog/privacy" style={{ color: '#8b5cf6' }}>Privacy Policy</a>,
               which is incorporated into these Terms of Service by reference.
               Please review our Privacy Policy to understand our data practices.

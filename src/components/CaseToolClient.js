@@ -1,9 +1,8 @@
 'use client'
 import { useState } from 'react'
-import Link from 'next/link'
-import Header from './Header'
-import Footer from './Footer'
 import AdUnit from './AdUnit'
+import Footer from './Footer'
+import Header from './Header'
 
 const CASE_CONFIGS = {
   uppercase: {
@@ -13,7 +12,7 @@ const CASE_CONFIGS = {
     accentLight: 'rgba(139,92,246,0.15)',
     icon: '🔠',
     currentPage: 'uppercase-converter',
-    exampleText: `the quick brown fox jumps over the lazy dog.\nhello world from toolkit pro!\nthis is a test sentence for uppercase conversion.`,
+    exampleText: `the quick brown fox jumps over the lazy dog.\nhello world from fast text kit!\nthis is a test sentence for uppercase conversion.`,
     convert: (s) => s.toUpperCase(),
     seoTitle: 'UPPERCASE Converter',
     seoIntro: `The UPPERCASE converter tool instantly transforms any text into ALL CAPITAL LETTERS. Whether you need to emphasize a title, format a heading, or meet specific style requirements, this free online tool handles it in seconds.`,
@@ -27,7 +26,7 @@ const CASE_CONFIGS = {
     accentLight: 'rgba(6,182,212,0.15)',
     icon: '🔡',
     currentPage: 'lowercase-converter',
-    exampleText: `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.\nHELLO WORLD FROM TOOLKIT PRO!\nCONVERT THIS TEXT TO LOWERCASE NOW.`,
+    exampleText: `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.\nHELLO WORLD FROM FASTTEXT KIT!\nCONVERT THIS TEXT TO LOWERCASE NOW.`,
     convert: (s) => s.toLowerCase(),
     seoTitle: 'Lowercase Converter',
     seoIntro: `The lowercase converter transforms any text — whether ALL CAPS or Mixed Case — into clean, uniform lowercase letters. Perfect for normalizing data, writing casual messages, or preparing text for URLs and email addresses.`,
@@ -83,7 +82,7 @@ const CASE_CONFIGS = {
     accentLight: 'rgba(99,102,241,0.15)',
     icon: '🔄',
     currentPage: 'toggle-case',
-    exampleText: `Hello World from ToolKit Pro!\nThis Is A Test Sentence.\nMixed CASE text goes HERE.`,
+    exampleText: `Hello World from FastText Kit!\nThis Is A Test Sentence.\nMixed CASE text goes HERE.`,
     convert: (s) => s.split('').map(c => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCase()).join(''),
     seoTitle: 'Toggle Case Converter',
     seoIntro: `Toggle Case (also known as alternating case) flips every single character's case — uppercase becomes lowercase and lowercase becomes uppercase. It creates the distinctive aLtErNaTiNg cAsE effect used in memes, mockery, and creative design.`,

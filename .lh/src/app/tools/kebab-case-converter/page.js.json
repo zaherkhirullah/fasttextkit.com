@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/tools/kebab-case-converter/page.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1777250247848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1777250247848,
+            "name": "Commit-0",
+            "content": "import CaseToolClient from '../../../components/CaseToolClient'\n\nexport const metadata = {\n  title: 'kebab-case Converter Online Free — FastText Kit',\n  description: 'Free online kebab-case converter. Convert text to kebab-case for CSS class names, URL slugs, and HTML attributes.',\n  keywords: 'kebab case converter online, text to kebab-case, css class name generator, url slug converter',\n}\n\nexport default function KebabCasePage() {\n  return <CaseToolClient caseType=\"kebab-case\" />\n}\n"
+        }
+    ]
+}

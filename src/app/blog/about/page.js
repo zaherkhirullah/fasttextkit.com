@@ -1,10 +1,10 @@
-import Header from '../../../components/Header'
 import Footer from '../../../components/Footer'
+import Header from '../../../components/Header'
 import './blog.css'
 
 export const metadata = {
-  title: 'About ToolKit Pro — Free Online Text & Image Tools',
-  description: 'Learn about ToolKit Pro — a collection of free online tools for text editing, case conversion, and image compression. No signup required.',
+  title: 'About FastText Kit — Free Online Text & Image Tools',
+  description: 'Learn about FastText Kit — a collection of free online tools for text editing, case conversion, and image compression. No signup required.',
 }
 
 export default function AboutPage() {
@@ -21,25 +21,25 @@ export default function AboutPage() {
           </nav>
 
           <div className="seo-content" style={{ maxWidth: '800px' }}>
-            <h1>About ToolKit Pro</h1>
+            <h1>About FastText Kit</h1>
             <p>
-              ToolKit Pro is a growing collection of free online productivity tools built for writers, developers, 
-              designers, and students. Whether you need to count words in an essay, convert text to camelCase for 
+              FastText Kit is a growing collection of free online productivity tools built for writers, developers,
+              designers, and students. Whether you need to count words in an essay, convert text to camelCase for
               a JavaScript variable, sort a list alphabetically, or compress an image for a website — we have you covered.
             </p>
             <p>
-              Every tool on this site runs entirely in your web browser. That means your text and files are never 
+              Every tool on this site runs entirely in your web browser. That means your text and files are never
               sent to a server, never stored, and never shared. Your privacy is guaranteed by design.
             </p>
 
             <h2>Our Mission</h2>
             <p>
-              We believe powerful tools should be accessible to everyone — for free, without requiring an account, 
-              without hidden fees, and without cluttered interfaces. Our mission is to provide the fastest, simplest, 
+              We believe powerful tools should be accessible to everyone — for free, without requiring an account,
+              without hidden fees, and without cluttered interfaces. Our mission is to provide the fastest, simplest,
               most reliable versions of the tools people use every day.
             </p>
 
-            <h2>Why Choose ToolKit Pro?</h2>
+            <h2>Why Choose FastText Kit?</h2>
             <ul>
               <li><strong>Lightning Fast</strong> — All tools process data instantly in your browser, no server round-trips</li>
               <li><strong>100% Private</strong> — Your text and images never leave your device</li>
@@ -68,9 +68,9 @@ export default function AboutPage() {
 
             <h2>Privacy Commitment</h2>
             <p>
-              We take your privacy seriously. None of the tools on ToolKit Pro send your data anywhere. 
-              All processing happens locally in your browser using JavaScript. We do not use tracking cookies, 
-              we do not collect personal information, and we do not sell data to third parties. 
+              We take your privacy seriously. None of the tools on FastText Kit send your data anywhere.
+              All processing happens locally in your browser using JavaScript. We do not use tracking cookies,
+              we do not collect personal information, and we do not sell data to third parties.
               For more details, see our <a href="/blog/privacy" style={{ color: '#8b5cf6' }}>Privacy Policy</a>.
             </p>
           </div>

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/tools/camelcase-converter/page.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1777250247842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1777250247842,
+            "name": "Commit-0",
+            "content": "import CaseToolClient from '../../../components/CaseToolClient'\n\nexport const metadata = {\n  title: 'camelCase Converter Online Free — FastText Kit',\n  description: 'Free online camelCase converter. Convert text to camelCase for JavaScript variables, JSON keys, and API fields instantly.',\n  keywords: 'camelcase converter online, text to camelCase, camel case generator, javascript variable name converter',\n}\n\nexport default function CamelCasePage() {\n  return <CaseToolClient caseType=\"camelcase\" />\n}\n"
+        }
+    ]
+}
