@@ -1,4 +1,6 @@
 import Script from 'next/script'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
@@ -45,7 +47,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google AdSense — uncomment and replace with real publisher ID after approval */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous"></script> */}
+        {<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8995879244490982" crossorigin="anonymous"></script>}
       </head>
       <body>
         {children}
@@ -69,6 +71,11 @@ export default function RootLayout({ children }) {
             </Script>
           </>
         )}
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
+
+        {/* Vercel Web Analytics */}
+        <Analytics />
       </body>
     </html>
   )
